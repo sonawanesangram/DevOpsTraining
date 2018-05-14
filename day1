@@ -7,3 +7,11 @@ ec2-user:~/environment/DevOpsTraining (master) $ git add filename
 ec2-user:~/environment/DevOpsTraining (master) $ git commit -m "comment"
 ec2-user:~/environment/DevOpsTraining (master) $ git log
 ec2-user:~/environment/DevOpsTraining (master) $ git push
+ec2-user:~/environment/DevOpsTraining (master) $ git branch "branchname"
+ec2-user:~/environment/DevOpsTraining (master) $ git checkout "branchname"
+ec2-user:~/environment/DevOpsTraining (master) $ git branch
+ec2-user:~/environment/DevOpsTraining (master) $ git merge "branchname"
+
+
+Head branch : Always points to current working directory
+* denots head
