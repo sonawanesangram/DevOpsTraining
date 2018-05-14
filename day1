@@ -12,6 +12,6 @@ ec2-user:~/environment/DevOpsTraining (master) $ git checkout "branchname"
 ec2-user:~/environment/DevOpsTraining (master) $ git branch
 ec2-user:~/environment/DevOpsTraining (master) $ git merge "branchname"
 
-
+n
 Head branch : Always points to current working directory
 * denots head
