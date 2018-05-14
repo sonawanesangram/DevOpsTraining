@@ -4,6 +4,6 @@ ec2-user:~/environment/DevOpsTraining (master) $ git status
 ec2-user:~/environment/DevOpsTraining (master) $ git commit
 ec2-user:~/environment/DevOpsTraining (master) $ git add *
 ec2-user:~/environment/DevOpsTraining (master) $ git add filename
-ec2-user:~/environment/DevOpsTraining (master) $ git commit -m MySecondCommit
+ec2-user:~/environment/DevOpsTraining (master) $ git commit -m "comment"
 ec2-user:~/environment/DevOpsTraining (master) $ git log
 ec2-user:~/environment/DevOpsTraining (master) $ git push
