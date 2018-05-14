@@ -1,18 +1,99 @@
-ec2-user:~/environment $ git clone https://github.com/sonawanesangram/DevOpsTraining.git
-ec2-user:~/environment/DevOpsTraining (master) $ ls -la
-ec2-user:~/environment/DevOpsTraining (master) $ git status
-ec2-user:~/environment/DevOpsTraining (master) $ git commit
-ec2-user:~/environment/DevOpsTraining (master) $ git add *
-ec2-user:~/environment/DevOpsTraining (master) $ git add filename
-ec2-user:~/environment/DevOpsTraining (master) $ git commit -m "comment"
-ec2-user:~/environment/DevOpsTraining (master) $ git log
-ec2-user:~/environment/DevOpsTraining (master) $ git push
-ec2-user:~/environment/DevOpsTraining (master) $ git branch "branchname"
-ec2-user:~/environment/DevOpsTraining (master) $ git checkout "branchname"
-ec2-user:~/environment/DevOpsTraining (master) $ git branch
-ec2-user:~/environment/DevOpsTraining (master) $ git merge "branchname"
-
-slave test
+1  git clone https://github.com/sonawanesangram/DevOpsTraining.git
+    2  ls -la
+    3  cd devopstraining
+    4  cd DevOpsTraining
+    5  ls -la
+    6  git status
+    7  git add index.html
+    8  git status
+    9  git ad *
+   10  git add *
+   11  git status
+   12  git commit
+   13  git commit -m DevOpsTest
+   14  git status
+   15  git add *
+   16  git commit -m MySecondCommit
+   17  git add *
+   18  git status
+   19  git commit
+   20  git commit -m commitday1file
+   21  git status
+   22  git log
+   23  git add *
+   24  git commit -m test
+   25  git status
+   26  cd DevOpsTraining
+   27  git status
+   28  git add *
+   29  git commit -m test
+   30  git status
+   31  git push
+   32  git status
+   33  git add *
+   34  git commit
+   35  git commit -m t
+   36  git status
+   37  git push
+   38  git status
+   39  git add test
+   40  git add TestFolder/test
+   41  git commit
+   42  git commit -m j
+   43  git status
+   44  git rm TestFolder
+   45  git rm TestFolder -r
+   46  git status
+   47  git commit -m delet
+   48  git status
+   49  git push
+   50  git status
+   51  git branch
+   52  git branch -v
+   53  git add *
+   54  git commit -m t
+   55  git status
+   56  git branch -v
+   57  git log
+   58  git branch slave
+   59  git branch
+   60  git branch -v
+   61  git checkout slave
+   62  git branch -v
+   63  git status
+   64  git log
+   65  git checkout master
+   66  git push
+   67  git status
+   68  git checkout slave
+   69  git status
+   70  git checkout master
+   71  git status
+   72  git add *
+   73  git commit -m y
+   74  git status
+   75  git branch
+   76  git checkout slave
+   77  git branch
+   78  git status
+   79  git branch -v
+   80  git checkout master
+   81  git merge slave
+   82  git branch -v
+   83  git checkout slave
+   84  git add *
+   85  git commit -m j
+   86  git status
+   87  git checkout master
+   88  git merge slave
+   89  master
+   90  histroy
+   91  git add *
+   92  git commit
+   93  git add *
+   94  git commit -m g
+   95  git branch -v
+   96  history
 
 Head branch : Always points to current working directory
 * denots head
