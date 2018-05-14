@@ -1,10 +1,9 @@
 ec2-user:~/environment $ git clone https://github.com/sonawanesangram/DevOpsTraining.git
 ec2-user:~/environment/DevOpsTraining (master) $ ls -la
 ec2-user:~/environment/DevOpsTraining (master) $ git status
-ec2-user:~/environment/DevOpsTraining (master) $ git ad *
 ec2-user:~/environment/DevOpsTraining (master) $ git commit
-ec2-user:~/environment/DevOpsTraining (master) $ git status
-ec2-user:~/environment/DevOpsTraining (master) $ git status
 ec2-user:~/environment/DevOpsTraining (master) $ git add *
+ec2-user:~/environment/DevOpsTraining (master) $ git add filename
 ec2-user:~/environment/DevOpsTraining (master) $ git commit -m MySecondCommit
-ec2-user:~/environment/DevOpsTraining (master) $ 
+ec2-user:~/environment/DevOpsTraining (master) $ git log
+ec2-user:~/environment/DevOpsTraining (master) $ git push
