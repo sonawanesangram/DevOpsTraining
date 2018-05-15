@@ -11,7 +11,7 @@ ec2-user:~/environment/DevOpsTraining (master) $ git branch "branchname"
 ec2-user:~/environment/DevOpsTraining (master) $ git checkout "branchname"
 ec2-user:~/environment/DevOpsTraining (master) $ git branch
 ec2-user:~/environment/DevOpsTraining (master) $ git merge "branchname"
+ec2-user:~/environment/DevOpsTraining (master) $ git push --set-upstream origin "branchname"
 
-n
 Head branch : Always points to current working directory
 * denots head
