@@ -1,0 +1,326 @@
+ 1  git clone https://github.com/sonawanesangram/DevOpsTraining.git
+    2  ls -la
+    3  cd devopstraining
+    4  cd DevOpsTraining
+    5  ls -la
+    6  git status
+    7  git add index.html
+    8  git status
+    9  git ad *
+   10  git add *
+   11  git status
+   12  git commit
+   13  git commit -m DevOpsTest
+   14  git status
+   15  git add *
+   16  git commit -m MySecondCommit
+   17  git add *
+   18  git status
+   19  git commit
+   20  git commit -m commitday1file
+   21  git status
+   22  git log
+   23  git add *
+   24  git commit -m test
+   25  git status
+   26  cd DevOpsTraining
+   27  git status
+   28  git add *
+   29  git commit -m test
+   30  git status
+   31  git push
+   32  git status
+   33  git log
+   34  git status
+   35  git add *
+   36  git commit
+   37  git commit -m
+   38  git commit
+   39  git status
+   40  git commit -m test
+   41  ls
+   42  cls
+   43  git status
+   44  git push
+   45  git add *
+   46  git commit
+   47  git commit -m t
+   48  git status
+   49  git push
+   50  git status
+   51  git add test
+   52  git add TestFolder/test
+   53  git commit
+   54  git commit -m j
+   55  git status
+   56  git rm TestFolder
+   57  git rm TestFolder -r
+   58  git status
+   59  git commit -m delet
+   60  git status
+   61  git push
+   62  git status
+   63  git branch
+   64  git branch -v
+   65  git add *
+   66  git commit -m t
+   67  git status
+   68  git branch -v
+   69  git log
+   70  git branch slave
+   71  git branch
+   72  git branch -v
+   73  git checkout slave
+   74  git branch -v
+   75  git status
+   76  git log
+   77  git checkout master
+   78  git push
+   79  git status
+   80  git checkout slave
+   81  git status
+   82  git checkout master
+   83  git status
+   84  git add *
+   85  git commit -m y
+   86  git status
+   87  git branch
+   88  git checkout slave
+   89  git branch
+   90  git status
+   91  git branch -v
+   92  git checkout master
+   93  git merge slave
+   94  git branch -v
+   95  git checkout slave
+   96  git add *
+   97  git commit -m j
+   98  git status
+   99  git checkout master
+  100  git merge slave
+  101  master
+  102  histroy
+  103  git add *
+  104  git commit
+  105  git add *
+  106  git commit -m g
+  107  git branch -v
+  108  history
+  109  git add *
+  110  git commit -m g
+  111  git status
+  112  git push
+  113  git branch
+  114  git push
+  115  get branch -v
+  116  git branch -v
+  117  cd DevOpsTraining
+  118  git branch -v
+  119  git checkout slave
+  120  git status
+  121  get add *
+  122  git add *
+  123  git commit
+  124  git commit -m test
+  125  git status
+  126  git push
+  127  git push --set-upstream origin slave
+  128  cd..
+  129  git checkout master
+  130  git add *
+  131  git commit
+  132  git commit -m jj
+  133  git checkout master
+  134  cd..
+  135  cd ..
+  136  sudo chmod 600 jenkinskey.pem
+  137  git clone https:/github.com/sonawanesangram/WebTest.git
+  138  cd WebTest
+  139  git clone https://github.com/sonawanesangram/WebTest.git
+  140  git status
+  141  cd WebTest
+  142  git status
+  143  git add *
+  144  git commit -m test
+  145  git status
+  146  create branch local
+  147  git branch local
+  148  git branch -v
+  149  git checkout local
+  150  git push
+  151  git push --set-upstream origin local
+  152  git checkout local
+  153  git status
+  154  git add*
+  155  git commit -m test
+  156  git add *
+  157  git commit -m test
+  158  git status
+  159  git push
+  160  git status
+  161  git add *
+  162  git commit -m build
+  163  git push
+  164  git branch
+  165  git branch -v
+  166  git checkout master
+  167  git branch -v
+  168  git merge local
+  169  git status
+  170  git push
+  171  git branch -v
+  172  git add *
+  173  git commit -m g
+  174  git push
+  175  cd ..
+  176  cd master
+  177  cd WebTest
+  178  ssh -i jenkinskey.pem ec2-user@54.208.23.80
+  179  cd devopstraining
+  180  cd DevOpsTraining
+  181  git status
+  182  git add *
+  183  git commit -m notes
+  184  git push
+  185  fetch
+  186  pull
+  187  pull origin master
+  188  git pull origin master
+  189  git status
+  190  git push
+  191  git stauts
+  192  git status
+  193  git rm local.txt
+  194  git status
+  195  git add *
+  196  git commit -m j
+  197  git status
+  198  git branch -v
+  199  git push
+  200  cd ..
+  201  ssh -i jenkinskey.pem ec2-54-85-82-98.compute-1.amazonaws.com
+  202  ssh -i jenkinskey.pem 34.228.232.16
+  203  ssh -i jenkinskey.pem ec2-user@54.90.146.50
+  204  sudo yum -y install docker
+  205  sudo service start docker
+  206  sudo service docker start
+  207  sudo service docker status
+  208  id -a
+  209  sudo usermod -a -G docker ec2-user
+  210  id -a
+  211  docker ps
+  212  docker ps - a
+  213  docker ps -a
+  214  docker stop
+  215  sudo service docker stop
+  216  sudo service docker status
+  217  sudo service docker start
+  218  sudo service docker status
+  219  docker images
+  220  clear
+  221  cd DevOpsTraining
+  222  git status
+  223  git add *
+  224  git commit -m test
+  225  git push
+  226  git status
+  227  cd ..
+  228  docker ps
+  229  docker ps -a
+  230  $ docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+  231  docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+  232  pwd
+  233  docker info
+  234  docker start
+  235  sudo service docker start
+  236  sudo service docker status
+  237  mkdir code
+  238  echo "<h1> This is to test docker </h1>" > code/index.html
+  239  docker run -d --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+  240  docker run -d --name my-apache-app1 -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+  241  docker ps
+  242  docker run -d --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+  243  docker run -d --name my-apache-app
+  244  docker run -d --name my-apache-app -p 8080:80
+  245  docker ps
+  246  docker exec my-apache-app cat /etc/passwd
+  247  docker images
+  248  cd testporj
+  249  cd testproj
+  250  git status
+  251  git init
+  252  git add *
+  253  git commit -m fromcommand
+  254  git push
+  255  git remote add testproj https://github.com/sonawanesangram
+  256  git remote -v
+  257  git push
+  258  git push origin master
+  259  git push testproj  master
+  260  cd frontend
+  261  docker build -t myappachetest:1.0 .
+  262  docker images
+  263  docker histroy
+  264  docker history
+  265  docker history myappachetest
+  266  docker history a28b65d05bbd
+  267  cd..
+  268  cd ..
+  269  apt-get install nginx
+  270  sudo apt-get install nginx
+  271  sudo yum -y install nginx
+  272  sudo apt-get install php -y
+  273  sudo yum install php -y
+  274  sudo yum -y  install apache2
+  275  sudo apt-get update -y
+  276  sudo yum update -y
+  277  sudo apt-get install apache2 -y
+  278  sudo yum  install apache2 -y
+  279  sudo yum install apache2 -y
+  280  sudo yum  install mysql-server -y
+  281  sudo yum install php -y
+  282  cd testproj
+  283  cd myubuntu
+  284  docker build -t myubuntutest:1.0 .
+  285  docker images
+  286  docker tag myappachetest:1.0
+  287  docker tag myappachetest:1.0 sonawanesangram/myapache:latest
+  288  docker tag myappachetest:1.0 sonawanesangram/myapache:l.0
+  289  docker login
+  290  docker login sonawanesangram/myapache
+  291  docker push sonawanesangram/myapache/
+  292  docker push sonawanesangram/myapache
+  293  docker run -d -p 9000:80 sonawanesangram/myapache:latest
+  294  docker ps
+  295  docker run -d -p 9000:80 my-apache-app
+  296  docker run -d -p 9000:80 httpd:2.4
+  297  docker run -d -p 8080:80 httpd:2.4
+  298  docker run -d -p 8081:80 httpd:2.4
+  299  docker images
+  300  docker tag myubuntutest:1.0 sonawanesangram/ubuntutest/
+  301  docker tag myubuntutest:1.0 sonawanesangram/ubuntutest
+  302  docker tag myubuntutest:latest sonawanesangram/ubuntutest
+  303  docker tag myubuntutest:1.0 sonawanesangram/ubuntutest:latest
+  304  docker push sonawanesangram/ubuntutest
+  305  docker tag myubuntutest:1.0 sonawanesangram/ubuntutest:1.0
+  306  docker push sonawanesangram/ubuntutest
+  307  docker images
+  308  docker run -d -p 8082:80 sonawanesangram/ubuntutest:latest
+  309  docker ps
+  310  docker stop e28ed0674ee1
+  311  docker stop e372df7a5dab
+  312  docker stop a74e7ceed227
+  313  docker ps
+  314  docker build -t myubuntutest:2.0 .
+  315  docker images
+  316  docker tag  myubuntutest:2.0 sonawanesangram/ubuntutest:latest
+  317  docker tag  myubuntutest:2.0 sonawanesangram/ubuntutest:2.0
+  318  docker push sonawanesangram/ubuntutest
+  319  history
+  320  docker ps
+  321  docker stop 94d61fd36d8e
+  322  docker stop fa2e8b0d6a4d
+  323  docker ps
+  324  docker run -p -d 9000:80 sonawanesangram/ubuntutest:latest
+  325  docker run -d -p 9000:80 sonawanesangram/ubuntutest:latest
+  326  history

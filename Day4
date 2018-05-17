@@ -1,0 +1,14 @@
+Docker:
+Docker file always start with FROM
+Commands should be non-interactive
+ADD: Copy content of folder. Can copy from url
+COPY: Copy folder + content
+Application should be run in foreground
+Only one CMD command in docker. If more, last CMD will be used
+
+
+docker run -d -p 8081:80 httpd:2.4  
+docker build -t myubuntutest:1.0 .
+
+docker build -t myappachetest:1.0 .
+ec2-user:~/environment $ docker images
